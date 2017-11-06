@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+    
+}
+.header {
+text-align: center;
+float: center;
+}
+.column {
+    float: right;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+.menu {
+    width: 25%;
+}
+
+.content {
+    width: 75%;
+    float: right;
+}
+.more {
+float: right;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: white;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Enver Creek Secondary</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Main</li>
+      <li>Teams and Clubs</li>
+      <li>Departments</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+  <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+
+<h1>Welcome</h1>
+    <p>Enver Creek Secondary</p>
+    <p>Home of the cougars. Full of positive students! Best education system in Canada. Plenty of courses and extra-curiculer available!</p>
+  </div>
+</div>
+
+
+<div class="footer">
+  <p>Contact Us!</p>
+  <p>604-555-1234</p>
+   <p>14350 82ave</p>
+</div>
+
+</body>
+</html>
