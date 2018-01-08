@@ -1,0 +1,38 @@
+/*
+Title: Super Sonic Speed
+-----------------------
+Sonic has to collect all the rings around the map. In the process, you must avoid Eggman (villain) otherwise you will lose.
+
+----------
+----------
+GAME WORLD
+----------
+----------
+
+Characters
+----------
+Attributes
+----------
+- Sonic (hero)
+- Has Super sonic speed, Must gather all rings. Hero of story.
+
+- Eggman
+- Also has Super Sonic speed, Trying to catch Sonic and capture him. Villain of story.
+
+-Ajoon
+-Ability to guide you to the rings and their whereabouts
+
+-Brent
+-Ability to tell you the whereabouts of Eggman and warn you to prevent him capturing you
+
+-Michael Brar
+-Gives key to unlock house, and get ring. 
+
+
+
+Wins and Losses
+----------------
+- Win: Collect all rings without being captured from Eggman.
+- Lose: Eggman catches you and captures you without collecting all the rings.
+*/
+
