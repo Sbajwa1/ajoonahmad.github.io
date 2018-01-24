@@ -1,3 +1,6 @@
+<!DOCTYPE HTML>
+<html>
+<head>
 <script>
 var yolo = prompt('Are you ready to play?').toUpperCase();
 
@@ -154,3 +157,6 @@ while(i === 'BLOCK' || i === 'HIT') {
 alert('You win, why are you still on this?');
 }
 </script>
+</head>
+<body>
+</body>
