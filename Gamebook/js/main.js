@@ -1,4 +1,4 @@
-<script>
+
  var yolo = prompt('Are you ready to play?').toUpperCase();
 
 if (yolo === "YES") {
@@ -153,4 +153,3 @@ if (i === 'BLOCK') {
 while(i === 'BLOCK' || i === 'HIT') {
 alert('You win, why are you still on this?');
 }
-  </script> 
