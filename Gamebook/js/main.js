@@ -1,5 +1,4 @@
-
- var yolo = prompt('Are you ready to play?').toUpperCase();
+var yolo = prompt('Are you ready to play?').toUpperCase();
 
 if (yolo === "YES") {
   alert('Great! Lets continue');
